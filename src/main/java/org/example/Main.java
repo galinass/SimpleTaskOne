@@ -9,6 +9,6 @@ public class Main {
         String name = scanner.nextLine();
         System.out.print("Въведете хоби: ");
         String hobby = scanner.nextLine();
-        System.out.println(String.format("Аз съм %s и съм страстен %s.", name, hobby));
+        System.out.printf("Аз съм %s и съм страстен %s.%n", name, hobby);
     }
 }
