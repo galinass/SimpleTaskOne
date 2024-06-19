@@ -9,7 +9,6 @@ public class Main {
         String name = scanner.nextLine();
         System.out.print("Въведете хоби: ");
         String hobby = scanner.nextLine();
-        String finalMessage = String.format("Аз съм %s и съм страстен %s.", name, hobby);
-        System.out.println(finalMessage);
+        System.out.println(String.format("Аз съм %s и съм страстен %s.", name, hobby));
     }
 }
